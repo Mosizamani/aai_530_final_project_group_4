@@ -16,9 +16,11 @@ env/
 .vscode/
 .DS_Store
 
+# Zip files
+*.zip
+
 # Data files
 *.csv
 *.pkl
 *.h5
-data/
 models/
