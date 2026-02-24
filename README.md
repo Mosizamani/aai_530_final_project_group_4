@@ -26,18 +26,18 @@ The project utilizes the **WESAD multimodal dataset**, extracting data from labo
 * **Normalization**: Applied subject-specific **Z-score normalization** to account for individual physiological baselines.
 
 ## Repository Structure
+* `aai_530_final_project.ipynb:` Main notebook containing all 3 models and results
 * `data/compressed_dataset`: dedicated directory for the WESAD compressed file and aligned wrist data for 1d-cnn model 
 * `1d-cnn/`: Data cleaning, exploration, and model results and analysis.
 * `lstm/`: Data cleaning, exploration, and model results and analysis.
-* `XGBoost:` Data cleaning, exploration, and model results and analysis
-* `aai_530_final_project.ipynb:` Main notebook containing all 3 models and results
+* `XGBoost/:` Data cleaning, exploration, and model results and analysis
 
 ## Instructions for use
 
 Import the data set:
-1. Download the compressed dataset [here](https://ubi29.informatik.uni-siegen.de/usi/data_wesad.html)
-2. Save zip file in the dedicated directory `data/compressed_dataset`
-3. Extract aligned_wrist_data_64Hz_v1.csv.zip located in data and save in 1d-cnn/ directory
+1. Download the compressed dataset from [here](https://ubi29.informatik.uni-siegen.de/usi/data_wesad.html)
+2. Save zip file to the dedicated directory `data/compressed_dataset`
+3. Extract aligned_wrist_data_64Hz_v1.csv.zip `located in data/compressed` and save to the `1d-cnn/` directory
 
 Install dependencies:
 1. Run: 
